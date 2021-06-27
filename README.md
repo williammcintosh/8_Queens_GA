@@ -4,12 +4,6 @@
 
 The board and the “Clashes” are the best value from all iterations / generations. The board simply displays what that configuration would look like if the queens were placed on a board.
 
-## Testing
-
-The optimal settings for this is determined by how quickly the algorithm finds the optimal solution, which speed in this situation will be determined by the number of iterations. Did the settings reach the optimal solution? How many iterations did it take to reach its optimal solution? I call this the “Generation Peak Reached” meaning which generation first arrived to the peak.
-
-![results](https://github.com/williammcintosh/8_Queens_GA/blob/main/images/Screen%20Shot%202021-06-26%20at%2011.42.41%20PM.png)
-
 ## Algorithm Explained
 
 ![genetic algorithm](https://github.com/williammcintosh/8_Queens_GA/blob/main/images/Screen%20Shot%202021-06-26%20at%2011.44.19%20PM.png)
@@ -42,3 +36,9 @@ Once a string is chosen for mutation a random number 0-7 is created which repres
 ### Iterations
 
 This whole cycle repeats by the number of iterations selected by the user. Since the optimal values are given a higher percentage and are more likely to be randomly selected as parents for reproduction, then running this algorithm in more iterations increases the chances of that taking place.
+
+## Testing
+
+The optimal settings for this is determined by how quickly the algorithm finds the optimal solution, which speed in this situation will be determined by the number of iterations. Did the settings reach the optimal solution? How many iterations did it take to reach its optimal solution? I call this the “Generation Peak Reached” meaning which generation first arrived to the peak.
+
+![results](https://github.com/williammcintosh/8_Queens_GA/blob/main/images/Screen%20Shot%202021-06-26%20at%2011.42.41%20PM.png)
