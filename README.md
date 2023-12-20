@@ -1,5 +1,9 @@
 # 8_Queens_GA
 
+## Purpose
+
+Hand-crafting a genetic algorithm from scratch to solve the classic [8 Queens problem ](https://en.wikipedia.org/wiki/Eight_queens_puzzle) was a very enjoyable experience and I left with a deep intuition of how the algorithm works with the ability to know how to apply this to any practial application. More than merely understand the nuances of the algorithm I more importantly learned how to approach problems with creative problem solving and was given a new toolset to work with.
+
 ## The Board
 
 The board and the “Clashes” are the best value from all iterations / generations. The board simply displays what that configuration would look like if the queens were placed on a board.
